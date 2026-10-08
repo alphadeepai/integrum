@@ -1,4 +1,12 @@
-# Integrum
+<p align="center">
+  <img src="src/integrum/logo.png" alt="Integrum Logo" width="180"/>
+</p>
+
+<h1 align="center">Integrum</h1>
+
+<p align="center">
+  <em>Convert any Python module or library into a FastMCP Model Context Protocol server.</em>
+</p>
 
 **Integrum** turns any Python module, library, function, or class into a [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server powered by [FastMCP](https://github.com/jlowin/fastmcp).
 
