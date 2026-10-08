@@ -68,3 +68,7 @@ When a class is exposed, Integrum registers:
 2. `<ClassName>_<method>`: Accepts a virtual parameter `obj_id: str` (e.g., `obj_id="playful_llama"`), resolves the underlying instance, and executes the method.
 
 Returned objects (such as datasets or numpy arrays) are also registered in the store with word IDs, allowing subsequent tools to receive them as arguments.
+
+## Examples
+
+Check out [`examples/gemma_sklearn_session.md`](examples/gemma_sklearn_session.md) and [`examples/gemma_sklearn_session.json`](examples/gemma_sklearn_session.json) for a complete, verified multi-turn transcript of Gemma 4 26B loading the Iris dataset, performing `train_test_split`, training a `RandomForestClassifier`, and evaluating accuracy.
