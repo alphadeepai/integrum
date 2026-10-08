@@ -80,3 +80,12 @@ Returned objects (such as datasets or numpy arrays) are also registered in the s
 ## Examples
 
 Check out [`examples/gemma_sklearn_session.md`](examples/gemma_sklearn_session.md) and [`examples/gemma_sklearn_session.json`](examples/gemma_sklearn_session.json) for a complete, verified multi-turn transcript of Gemma 4 26B loading the Iris dataset, performing `train_test_split`, training a `RandomForestClassifier`, and evaluating accuracy.
+
+## Links & Homepage
+
+- **Homepage & Repository**: [https://github.com/alphadeepai/integrum](https://github.com/alphadeepai/integrum)
+- **Issue Tracker**: [https://github.com/alphadeepai/integrum/issues](https://github.com/alphadeepai/integrum/issues)
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE). Copyright (c) 2026 AlphaDeep.

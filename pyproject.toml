@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
-    { name = "Integrum Team" },
+    { name = "AlphaDeep" },
 ]
 keywords = ["mcp", "fastmcp", "llm", "tools", "reflection", "scikit-learn"]
 classifiers = [
@@ -29,6 +29,11 @@ dependencies = [
     "click>=8.1.0",
     "pydantic>=2.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/alphadeepai/integrum"
+Repository = "https://github.com/alphadeepai/integrum"
+Issues = "https://github.com/alphadeepai/integrum/issues"
 
 [project.optional-dependencies]
 test = [
